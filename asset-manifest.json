@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-gh-pages.git/static/css/main.94eac28e.css",
+    "main.js": "/React-gh-pages.git/static/js/main.292c8476.js",
+    "static/media/ALX-LOGO.jpg": "/React-gh-pages.git/static/media/ALX-LOGO.24bab5d633e36ca8d17e.jpg",
+    "index.html": "/React-gh-pages.git/index.html",
+    "main.94eac28e.css.map": "/React-gh-pages.git/static/css/main.94eac28e.css.map",
+    "main.292c8476.js.map": "/React-gh-pages.git/static/js/main.292c8476.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94eac28e.css",
+    "static/js/main.292c8476.js"
+  ]
+}
