@@ -1,0 +1,221 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+    IMPORTED GOOGLE FONTS
+ */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: "Source Code Pro", monospace;
+}
+
+/* STYLING THE HOLBERTON LOGO */
+
+img {
+    width: 10%;
+}
+
+/* STYLING THE HEADER TITLE */
+
+h1 {
+    color: #D70040;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+/* STYLING THE HEADER CONTAINER */
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+}
+
+/* STYLING A HORIZONTAL BOTTOM */
+
+header::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    display: block;
+    background-color: #D70040;
+    position: absolute;
+    bottom: -10px;
+}
+
+
+/* STYLING THE INNER TEXT */
+
+.App-body {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+
+.App-body p {
+    margin-bottom: 1rem;
+}
+
+/* STYLING THE FOOTER  */
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-style: italic;
+
+}
+
+footer::before {
+    content: '';
+    width:  98%;
+    height: 3px;
+    display: block;
+    background-color: #D70040;
+    position: absolute;
+    top: -16px;
+    margin-left: 12px;
+}
+
+
+
+/* STYLING THE LABEL TAGS */
+label, input {
+    margin-right: 1rem;
+}
+
+
